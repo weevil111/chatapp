@@ -11,24 +11,31 @@
   <div class="chat-container">
     <div class="left-view">
       <div class="me">
-
+        <div class="user-image">
+          <img src="default.png" >
+        </div>
+        <div class="user-name">My name</div>
       </div>
       <div class="online-list">
-        <div class="user"></div>
-        <div class="user"></div>
+        <!-- <div class="user">
+          <div class="user-image">
+            <img src="default.png" >
+          </div>
+          <div class="user-name">Steve</div>
+        </div> -->
       </div>
     </div>
     <div class="right-view">
       <div class="chat-window">
-        <div class="chat join">Steve joined the chat</div>
+        <!-- <div class="chat join">Steve joined the chat</div>
         <div class="chat leave">Steve left the chat</div>
         <div class="chat left">Hey Guys</div>
         <div class="chat right">Hey Everyone</div>
         <div class="chat right">How are you?</div>
-        <div class="chat left">Fine !</div>
+        <div class="chat left">Fine !</div> -->
       </div>
       <div class="chat-input-box">
-        <input type="text" class="chat-input">
+        <input type="text" class="chat-input" placeholder="Type here...">
       </div>
     </div>
   </div>
@@ -37,5 +44,6 @@
     const socket = io();
   </script>
   <script src="script.js"></script>
+  <script src="socket.js"></script>
 </body>
 </html>
