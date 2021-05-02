@@ -122,8 +122,11 @@
   width: 100%;
 }
 
-.user-name {
-}
-
-.online-list {
+@media only screen and (max-width: 800px) {
+  .left-view{
+    display: none;
+  }
+  .right-view{
+    width: 100%;
+  }
 }
